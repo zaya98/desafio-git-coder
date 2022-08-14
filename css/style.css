@@ -1,0 +1,15 @@
+h1 {
+    background-color: blueviolet;
+    display: inline-flexbox;
+    text-align: center;
+    height: 50px;
+
+}
+
+.nav-bar {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    
+    
+}
