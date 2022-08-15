@@ -40,7 +40,11 @@
   }
   .animacion:hover {
     transform: translate(45px);
+    
   }
+  
+  
+
   h1 {
     text-align: center;
     color: black;
