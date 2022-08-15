@@ -29,18 +29,23 @@
     font-size: 35px;
     padding: 25px;
   }
-  header {
+  header  {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    background-color: blueviolet;
+    background-image: linear-gradient(to left, blueviolet, yellow);
     align-items: center;
+    
+    
+  }
+  .animacion:hover {
+    transform: translate(45px);
   }
   h1 {
     text-align: center;
     color: black;
     text-decoration: underline;
-    background-color: rgb(20, 172, 172);
+    background-color: rgb(18, 168, 168);
     padding: 25px 0;
   }
   
@@ -105,7 +110,7 @@
   }
   footer {
     text-decoration: underline;
-    background-color: yellow;
+    background-image: linear-gradient(to left, blueviolet, yellow);
     background-position: left;
     text-align: left;
     padding: 1vh;
@@ -116,7 +121,7 @@
   .boxmd {
     display: grid;
     color: yellow;
-    background-color: rgb(128, 0, 0);
+    background-image: linear-gradient(to bottom, red, orange );
     border-color: black;
     border-width: 3px;
     border-style: solid;
