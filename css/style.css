@@ -42,14 +42,17 @@
     transform: translate(45px);
     
   }
+  .animacion-li:hover {
+    padding: 2px;
+  }
   
-  
+
 
   h1 {
     text-align: center;
     color: black;
     text-decoration: underline;
-    background-color: rgb(18, 168, 168);
+   background-image: radial-gradient( rgb(2, 158, 158), blue);
     padding: 25px 0;
   }
   
@@ -133,6 +136,11 @@
     width: 50% 50%;
     height: 200px;
     
+  }
+
+  .boxmd:hover {
+   padding: 10%;
+
   }
   ol li {
       display: inline-block;
