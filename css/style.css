@@ -1,3 +1,21 @@
+.index-nav {
+    background-image: radial-gradient(blueviolet, red );
+    padding: 25px;
+}
+
 h1 { 
-    background-color: blueviolet;
+    background-color: rgb(212, 212, 11);
+    padding: 25px;
+    margin-top: 1px;
+}
+.index-div {
+    border-radius: 5px;
+    border-style: solid;
+    background-color: red;
+}
+
+footer ul {
+
+    justify-content: space-between;
+    background-color: rgb(189, 10, 46);
 }
