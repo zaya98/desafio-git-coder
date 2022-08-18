@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Contacto</title>
     <link rel="stylesheet" href="./bootstrap/bootstrap.min.css">
 <link rel="stylesheet" href="./css/style.css">
 </head>
@@ -41,24 +41,26 @@
     
     <section>
     
-    <h2>Contacto:</h2>
+    <h1 class="text-center fs-1">Contacto:</h1>
     <body>
         
         <form class=>
-            <div>
-    <label for="nombre-usuario">Nombre:</label>
-            <input type="text" id="nombre-contacto" name="nombre-usuario">
-            </div>
-            <div>
-    <label for="email-usuario">Email:</label>
-            <input type="email" id="email-contacto" name="email-usuario">
-    </div>
-    <div>
-    <label for="telefono-usuario">Telefono:</label>
-            <input type="tel" id="telefono-contacto" name="telefono-usuario">
-    <div>
+          <div class="mb-3">
+            <label for="nombre-usuario" class="form-label">Nombre completo:</label>
+            <input type="name" class="form-control" id="nombre-usuario" aria-describedby="nombre-usuario">
+          </div>
+              <div class="mb-3">
+                <label for="email-usuario" class="form-label">Correo electrónico:</label>
+                <input type="email" class="form-control" id="email-usuario" aria-describedby="email-usuario">
+                <div id="email-usuario" class="form-text">Nunca compartiremos su correo electrónico con nadie más.</div>
+              </div>
+              <div class="mb-3">
+                <label for="telefono-usuario" class="form-label">telefono:</label>
+                <input type="telefono" class="form-control" id="telefono-usuario" aria-describedby="telefono-usuario">
+                <div id="telefono-usuario" class="form-text"></div>
+              </div>
     
-    <p class="contacto_medio">¿a traves de que medio le gustaria que nos comuniquemos con usted?</p>
+    <p class="contacto_medio fs-4">¿A traves de que medio le gustaria que nos comuniquemos con usted?</p>
         
     <label for="contaco-usuario">Telefono</label>
         <input type="radio" id="contacto-usuario" name="contacto-usuario" value="metodo-telefono">
@@ -70,7 +72,7 @@
     
     <div>
     <label for="mensaje-usuario">Mensaje:</label>
-            <textarea name="" cols="30" rows="10" id="mensaje-usuario" name="mensaje-usuario"></textarea>
+            <textarea name="" cols="100" rows="10" id="mensaje-usuario" name="mensaje-usuario"></textarea>
     
     </div>
     <input type="submit">

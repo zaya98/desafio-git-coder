@@ -4,18 +4,71 @@
 }
 
 h1 { 
-    background-color: rgb(212, 212, 11);
+    background-image: linear-gradient(orange, yellow );
     padding: 25px;
     margin-top: 1px;
 }
 .index-div {
     border-radius: 5px;
     border-style: solid;
-    background-color: red;
+    background-image: linear-gradient(to right, yellow, red);
 }
 
 footer ul {
-
-    justify-content: space-between;
-    background-color: rgb(189, 10, 46);
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+background-image: radial-gradient(blueviolet, red);  
 }
+
+.card {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 50% 50% ;
+    grid-template-rows: 100%;
+    text-align: center;
+    min-height: 50vh;
+    }
+    .ley-aplicacion {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 40% 60%;
+    grid-template-rows: 50% 50%;
+    flex-direction: row;
+    text-align: center;
+    }
+    .img195 {
+   width: 250px !important;
+margin-top: 60px;
+
+    }
+
+    .img24557 {
+        width: 400px;
+        padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    width: auto;
+    display: inline-block;
+    }
+     
+    .proteccion-main {
+        width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 40% 60%;
+    grid-template-rows: 50% 50%;
+    flex-direction: row;
+    text-align: center;
+    min-height: 100vh;
+    align-items: center;
+    }
+    .proteccion-img {
+        width: 250px;
+    }
+    .proteccion-img2 {
+      width: 300px;
+    }
