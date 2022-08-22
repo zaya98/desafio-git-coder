@@ -1,5 +1,5 @@
 .index-nav {
-    background-image: radial-gradient(blueviolet, red );
+    background-image: linear-gradient(orange, yellow );
     padding: 25px;
 }
 
@@ -18,7 +18,7 @@ footer ul {
 display: flex;
 flex-direction: row;
 justify-content: space-around;
-background-image: radial-gradient(blueviolet, red);  
+background-image: linear-gradient(orange, yellow );  
 }
 
 .card {
