@@ -7,6 +7,7 @@
     <title>Inicio</title>
     <link rel="stylesheet" href="./bootstrap/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
     <link rel="stylesheet" href="./css/style.css">
 
 </head>
@@ -16,37 +17,33 @@
        
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container-fluid index-nav">
-              <a class="navbar-brand fs-1" href="./index.html">Higiene y seguridad Bs</a> <i class="bi bi-hammer fs-1"></i>
+              <a class="navbar-brand fs-1 animate__animated animate__flipInX" href="./index.html">Higiene y seguridad Bs</a> <i class="bi bi-hammer fs-1 animate__animated animate__rotateIn"></i> 
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
               <div class="collapse navbar-collapse justify-content-end index-nav" id="navbarNav">
                 <ul class="navbar-nav" >
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="./tipodeproteccion.html">Tipo de protecciones</a>
+                    <a class="nav-link active animate__animated animate__pulse" aria-current="page" href="./tipodeproteccion.html">Tipo de protecciones</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="./capacitaciones.html">Capacitaciones</a>
+                    <a class="nav-link animate__animated animate__pulse" href="./capacitaciones.html">Capacitaciones</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="./leydeaplicacion.html">Ley de aplicacion</a>
+                    <a class="nav-link animate__animated animate__pulse" href="./leydeaplicacion.html">Ley de aplicacion</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="./contacto.html"> Contacto</a>
+                    <a class="nav-link animate__animated animate__pulse" href="./contacto.html"> Contacto</a>
                   </li>
                 </ul>
               </div>
           </nav>
 
     
-    </header>
+   
 
-    <h1 class="text-center fs-1">¿Que es la higiene y seguridad?</h1>
+    <h1 class="fs-1">¿Que es la higiene y seguridad?</h1>
     
-
-    <div class="text-start fs-5 container index-div"> El término seguridad se le atribuye a la prevención y protección personal frente a los propios riesgos de una actividad laboral determinada. Por el contrario el término higiene proviene de la medicina y que tiene por objeto la conservación de la salud y prevenir a las personas de posibles enfermedades.
-        </div>
-
                     
         <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
           <div class="carousel-indicators">
@@ -56,24 +53,24 @@
           </div>
           <div class="carousel-inner">
             <div class="carousel-item active">
-              <img src="./img/" class="d-block w-100" alt="...">
+              <img src="./img/img-pink.jpg" class="d-block w-100 altura" alt="...">
               <div class="carousel-caption d-none d-md-block">
-                <h5>Etiqueta de la primera diapositiva</h5>
-                <p>Algún contenido placeholder representativo para la primera diapositiva.</p>
+                <h5 class="fs-1 text-dark">Elementos de proteccion basicos</h5>
+                <p class="fs-3 carousel">En la siguiente imagen podemos observar los elementos de proteccion basicos para la obra</p>
               </div>
             </div>
             <div class="carousel-item">
-              <img src="..." class="d-block w-100" alt="...">
+              <img src="./img/img-pink2.jpg" class="d-block w-100 altura" alt="...">
               <div class="carousel-caption d-none d-md-block">
-                <h5>Etiqueta de la segunda diapositiva</h5>
-                <p>Algún contenido placeholder representativo para la segunda diapositiva.</p>
+                <h5 class="fs-1 text-dark">¿Que es la higiene?</h5>
+                <p class="fs-3 carousel ">el término higiene proviene de la medicina y que tiene por objeto la conservación de la salud y prevenir a las personas de posibles enfermedades.</p>
               </div>
             </div>
             <div class="carousel-item">
-              <img src="..." class="d-block w-100" alt="...">
+              <img src="./img/img-pink3.jpg" class="d-block w-100 altura" alt="...">
               <div class="carousel-caption d-none d-md-block">
-                <h5>Etiqueta de la tercera diapositiva</h5>
-                <p>Algún contenido placeholder representativo para la tercera diapositiva.</p>
+                <h5 class="fs-1 text-dark">¿Que es la seguridad?</h5>
+                <p class=" fs-3 carousel">El término seguridad se le atribuye a la prevención y protección personal frente a los propios riesgos de una actividad laboral determinada.</p>
               </div>
             </div>
           </div>
@@ -86,7 +83,7 @@
             <span class="visually-hidden">Siguiente</span>
           </button>
         </div>
-
+ </header>
 <footer>
 <ul>
 <li><i class="bi bi-facebook"></i></li>
@@ -101,5 +98,7 @@
 
 
 <script src="./js/bootstrap.min.js"></script>
+<script src="js/wow.min.js"></script>
+
 </body>
 </html>
