@@ -1,10 +1,8 @@
 
-{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-
+.altura {
+  height: 30rem;
+  justify-content: center;
+}
   img {
     padding-top: 50px;
     padding-left: 50px;
@@ -65,7 +63,7 @@
   section p {
     color: black;
     text-align: center;
-  }
+  }/*
   .index-main {
    width: 100%;
    height: 100%; 
@@ -75,7 +73,7 @@
     flex-direction: row;
    text-align: center;
     min-height: 70vh;
-  }
+   } */
   .proteccion-main{
       width: 100%;
       height: 100%; 
