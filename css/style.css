@@ -1,7 +1,11 @@
 
 .altura {
   height: 30rem;
-  justify-content: center;
+  
+}
+
+.nav-nav {
+  background-image: linear-gradient(to right yellow,red);
 }
   img {
     padding-top: 50px;
@@ -29,7 +33,7 @@
     transform: translate(45px);
     
   }
-  .animacion-li:hover {
+  .animacion-li {
     padding: 2px;
   }
   
@@ -110,7 +114,7 @@
     margin: 70px;
    
   }
-  
+  /*
   .boxmd {
     display: grid;
     color: yellow;
@@ -124,7 +128,7 @@
     
   }
 
-  .boxmd:hover {
+  .boxmd {
    padding: 10%;
 
   }
@@ -136,14 +140,14 @@
       margin: 0;
       padding: 0;
     }
-  
+  */
   
   
   .epp-img {
     margin: 10px;
   }
   
-  /* capacitaciones */
+ 
   .p_capacitacion {
     text-align: left;
   }
@@ -161,7 +165,7 @@
     text-decoration: underline;
   }
   
-  /* css contacto */
+ 
   .contacto_medio {
     text-align: left;
     text-decoration: underline;
@@ -171,13 +175,13 @@
     text-decoration: underline;
   }
   
-  /* css tipo de protecciones */
+ 
   span {
     background-color: darkorange;
     text-align: left;
   }
   
-  /* ley de aplicacion */
+  
   li {
     text-align: left;
   }
@@ -199,7 +203,7 @@
     text-align: center;
     
   }
-  
+  /*
   @media screen and (max-width:700px) 
   {
       .index-main {
