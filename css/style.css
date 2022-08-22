@@ -1,13 +1,10 @@
-/* css de index */
-* {
+
+{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
   }
-  body {
-    background-color: white;
-  }
-  
+
   img {
     padding-top: 50px;
     padding-left: 50px;
@@ -29,17 +26,7 @@
     font-size: 35px;
     padding: 25px;
   }
-  
-  /* 
-  header  {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    background-image: linear-gradient(to left, blueviolet, yellow);
-    align-items: center;
-     */
-    
-  }
+
   .animacion:hover {
     transform: translate(45px);
     
@@ -48,7 +35,6 @@
     padding: 2px;
   }
   
-
 
   h1 {
     text-align: center;
