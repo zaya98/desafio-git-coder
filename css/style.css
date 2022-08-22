@@ -29,13 +29,15 @@
     font-size: 35px;
     padding: 25px;
   }
+  
+  /* 
   header  {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     background-image: linear-gradient(to left, blueviolet, yellow);
     align-items: center;
-    
+     */
     
   }
   .animacion:hover {
