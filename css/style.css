@@ -1,179 +1,174 @@
-
 .altura {
   height: 70rem;
 }
+
 .carousel {
   background-color: rgba(138, 135, 135, 0.644);
 }
+
 .animate__pulse {
   transition: 0.5s;
 }
 
 .altura {
   height: 50rem;
-  
 }
+
 h5 {
   background-color: rgba(138, 135, 135, 0.644);
-
 }
+
 .index-nav {
-    background-image: linear-gradient(orange, yellow );
-    padding: 25px;
+  background-image: linear-gradient(orange, yellow);
+  padding: 25px;
 }
 
-h1 { 
-    background-image: linear-gradient(orange, yellow );
-    padding: 25px;
-    margin-top: 1px;
-    text-align: center;
-    text-decoration: underline;
+h1 {
+  background-image: linear-gradient(orange, yellow);
+  padding: 25px;
+  margin-top: 1px;
+  text-align: center;
+  text-decoration: underline;
 }
+
 .index-div {
-    border-radius: 5px;
-    border-style: solid;
-    background-image: linear-gradient(to right, yellow, red);
+  border-radius: 5px;
+  border-style: solid;
+  background-image: linear-gradient(to right, yellow, red);
 }
 
 footer ul {
-display: flex;
-flex-direction: row;
-justify-content: space-around;
-background-image: linear-gradient(orange, yellow );  
-list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-image: linear-gradient(orange, yellow);
+  list-style-type: none;
 }
 
 .card {
-    width: 100%;
-    height: 100%;
-    display: grid;
-    grid-template-columns: 50% 50% ;
-    grid-template-rows: 100%;
-    text-align: center;
-    min-height: 50vh;
-    }
-    .ley-aplicacion {
-    width: 100%;
-    height: 100%;
-    display: grid;
-    grid-template-columns: 40% 60%;
-    grid-template-rows: 50% 50%;
-    flex-direction: row;
-    text-align: center;
-    }
-  .img-195 {
-    width: 300px;
-    height: 25rem;
-    padding: auto;
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 100%;
+  text-align: center;
+  min-height: 50vh;
+}
 
-  }
-    .img24557 {
-        width: 250px !important;
-        padding-top: 20px;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-bottom: 20px;
-    display: inline-block;
-    
-    }
-     
-    .proteccion-main {
-        width: 100%;
-    height: 100%;
-    display: grid;
-    grid-template-columns: 40% 60%;
-    grid-template-rows: 50% 50%;
-    flex-direction: row;
-    text-align: center;
-    min-height: 100vh;
-    align-items: center;
-    }
-    .proteccion-img {
-        width: 250px;
-    }
-    .proteccion-img2 {
-      width: 300px;
-    }
+.ley-aplicacion {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: 40% 60%;
+  grid-template-rows: 50% 50%;
+  flex-direction: row;
+  text-align: center;
+  margin-bottom: 50px;
+}
 
-  img {
-    padding-top: 50px;
-    padding-left: 50px;
-    padding-right: 50px;
-    padding-bottom: 50px;
-    width: auto;
-    display: inline-block;
-  }
- 
-  .proteccion-main{
-      width: 100%;
-      height: 100%; 
-         display: grid;
-       grid-template-columns: 40% 60%;
-       grid-template-rows: 50% 50%;
-       flex-direction: row;
-      text-align: center;
-       min-height: 100vh;
+.img-195 {
+  width: 300px;
+  height: 25rem;
+  padding: auto;
+}
+
+.img24557 {
+  width: 250px !important;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  display: inline-block;
+}
+
+.proteccion-main {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: 40% 60%;
+  grid-template-rows: 50% 50%;
+  flex-direction: row;
+  text-align: center;
+  min-height: 100vh;
   align-items: center;
-  }
-  
-  
-  .proteccion-img  {
+}
+
+.proteccion-img {
+  width: 250px;
+}
+
+.proteccion-img2 {
+  width: 300px;
+}
+
+img {
+  padding-top: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 50px;
+  width: auto;
+  display: inline-block;
+}
+
+.proteccion-main {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: 40% 60%;
+  grid-template-rows: 50% 50%;
+  flex-direction: row;
+  text-align: center;
+  min-height: 100vh;
+  align-items: center;
+}
+
+.proteccion-img {
   width: 400px !important;
-  }
-  .proteccion-main p {
-      font-size: 25px;
-      width: 90%;
-      margin: 0 auto;
-  }
- 
-  .epp-img {
-    margin: 10px;
-  }
-  
-  .p_capacitacion {
-    text-align: left;
-  }
-  .box_cap {
-    color: rgb(255, 81, 0);
-background-image: radial-gradient(yellow, grey);
-  
-    width: 300px;
-    height: 100px;
-  
-    border-color: black;
-    border-width: 5px;
-    border-style: groove;
-    margin: 10px;
-    text-decoration: underline;
-  }
-  
- 
-  .contacto_medio {
-    text-align: left;
-    text-decoration: underline;
-  }
-  .border_contacto {
-    text-align: left;
-    text-decoration: underline;
-  }
-  
- 
-  .img-24557 {
-    width: 400px;
-  }
-  .img-195 {
-    width: 400px !important;
-    margin-top: 60px;
-  }
-  
-  .ley-aplicacion {
-    width: 100%;
-    height: 100%; 
-       display: grid;
-     grid-template-columns: 40% 60%;
-     grid-template-rows: 50% 50%;
-     flex-direction: row;
-    text-align: center;
-   
-    
-  }
+}
+
+.proteccion-main p {
+  font-size: 25px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.epp-img {
+  margin: 10px;
+}
+
+.p_capacitacion {
+  text-align: left;
+}
+
+.box_cap {
+  color: rgb(255, 81, 0);
+  background-image: radial-gradient(yellow, grey);
+  width: 300px;
+  height: 100px;
+  border-color: black;
+  border-width: 5px;
+  border-style: groove;
+  margin: 10px;
+  text-decoration: underline;
+}
+
+.contacto_medio {
+  text-align: left;
+  text-decoration: underline;
+}
+
+.border_contacto {
+  text-align: left;
+  text-decoration: underline;
+}
+
+.img-24557 {
+  width: 400px;
+}
+
+.img-195 {
+  width: 400px !important;
+  margin-top: 60px;
+}
+
+/*# sourceMappingURL=style.css.map */
