@@ -11,7 +11,7 @@ h2 {
   background-color: rgba(66, 66, 66, 0.479);
 }
 .carousel {
-  background-color: rgba(66, 66, 66, 0.479);
+  background-color: rgba(66, 66, 66, 0.479)
 }
     ul {
       list-style-type: none;
@@ -28,6 +28,8 @@ h2 {
       flex-direction: row;
       justify-content: space-around;
       background-image: radial-gradient(yellow, orange);
+      text-decoration: none;
+      list-style: none;
       
     }
     .proteccion-main {
