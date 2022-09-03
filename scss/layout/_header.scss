@@ -1,0 +1,22 @@
+.navbar{
+    background-image:radial-gradient(yellow, orange);
+    &-nav {
+      padding: 20px;
+    }
+    }
+  
+  
+  h1 {
+    background-image:radial-gradient(yellow, orange);
+    text-align: center;
+    text-decoration: underline;
+  }
+      ul {
+        list-style-type: none;
+        }
+      
+      ul li {
+        display: inline-flex;
+        justify-content: space-between;
+        background-image: radial-gradient( yellow, orange);
+      }
