@@ -11,7 +11,7 @@
        header {
         display: flex;
         flex-direction: column;
-        justify-content: space-between;
+        justify-content: space-around;
         align-items: center;}
 
         ul {
@@ -52,4 +52,5 @@
     text-align: center;
     background-color: grey;
     text-decoration: underline;
+    display: none;
 }
