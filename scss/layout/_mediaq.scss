@@ -1,0 +1,55 @@
+@media screen and (max-width:700px) 
+{
+    .index-main {
+        width: 100%;
+        height: 100%; 
+           display: flex;
+         flex-direction: column;
+        text-align: center;
+         min-height:100%;
+       }
+       header {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;}
+
+        ul {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            gap: 15px;
+            padding-right: 10px;
+            margin: 15px;
+          }
+    .proteccion-main {
+        width: 100%;
+        height: 100%; 
+           display: flex;
+         flex-direction: column;
+        text-align: center;
+         min-height:100%;
+         margin: 100px 0;
+       }
+       header {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;}
+.proteccion-main p {
+    margin: 50px 0;
+}
+.ley-aplicacion {
+  width: 100%;
+  height: 100%; 
+     display: flex;
+   flex-direction: column;
+  text-align: center;
+  min-height: 100%;
+  margin: 100px 0; }
+    }
+.carousel {
+    text-align: center;
+    background-color: grey;
+    text-decoration: underline;
+}
