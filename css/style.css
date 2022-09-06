@@ -43,10 +43,11 @@ footer ul {
 }
 .proteccion-main_img {
   width: 250px;
-  margin-top: 40px;
+  margin-top: auto;
 }
 .proteccion-main_img-img2 {
   width: 300px;
+  margin: auto;
 }
 
 .ley-aplicacion {
