@@ -1,4 +1,4 @@
-@media screen and (max-width:700px) 
+@media screen and (max-width:600px) 
 {
     .index-main {
         width: 100%;
@@ -52,8 +52,13 @@
 }
 .carousel {
   text-align: center;
-  background-color: grey;
   text-decoration: underline;
+  width: 100%;
+  height: auto;
 
+}
+.altura {
+  width: 100%;
+  height: auto;
 }
     }
