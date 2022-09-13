@@ -26,7 +26,6 @@ footer ul {
   flex-direction: row;
   justify-content: space-around;
   background-image: radial-gradient(yellow, orange);
-  text-decoration: none;
   list-style: none;
 }
 
@@ -92,7 +91,7 @@ h2 {
   text-decoration: underline;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
   .index-main {
     width: 100%;
     height: 100%;
@@ -147,9 +146,9 @@ h2 {
   }
   .carousel {
     text-align: center;
-    text-decoration: underline;
     width: 100%;
     height: auto;
+    font-size: 10px;
   }
   .altura {
     width: 100%;
